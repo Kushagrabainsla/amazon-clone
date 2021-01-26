@@ -8,11 +8,15 @@
   z-index: 100;
 }
 
-.header__logo {
-  width: 100px;
+.header__logo1 {
+  width: 120px;
   object-fit: contain;
-  margin: 0 20px;
-  margin-top: 18px;
+  margin: 0 5px;
+}
+.header__logo2 {
+  width: 150px;
+  object-fit: contain;
+  margin: 0 5px;
 }
 
 .header__search {

@@ -6,7 +6,8 @@ import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 function Header() {
     return (
         <div className='header'>
-            <img className="header__logo" src="/Users/kushagrabainsla/Desktop/projects/amazon-clone/src/assets/header_prime_logo.png"/>
+            <img className="header__logo1" src="assets/header_prime_logo.png"/>
+            <img className="header__logo2" src="assets/header_delivery.png"/>
 
             <div className="header__search">
                 <input className="header__searchInput" type="text" />
