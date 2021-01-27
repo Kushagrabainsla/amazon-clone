@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   background-color: #131921;
-  position: static;
+  position: sticky;
   top: 0;
   z-index: 100;
 }
@@ -54,6 +54,7 @@
 }
 
 .header__optionbasketCount {
+  font-weight: 650;
   margin-left: 10px;
   margin-right: 10px;
 }

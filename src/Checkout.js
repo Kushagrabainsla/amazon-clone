@@ -6,7 +6,7 @@ function Checkout() {
     return (
         <div className="checkout">
             <div className="checkout__left">
-                <img className="checkout__ad" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxb3XqubvNyYk2ehwT-JFmbCljCTghknBz5g&usqp=CAU" alt="" />
+                <img className="checkout__ad" src="https://sootter.com/upload/6643intelligence-horizontal-banner-220x265_158855015884b5b0e31141839dc8aeae7ad454d0ff.png" alt="" />
                 <div>
                   <h2 className="checkout__title">Your Shopping Cart</h2>
                 </div>
