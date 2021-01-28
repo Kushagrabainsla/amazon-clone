@@ -23,6 +23,21 @@ export const initialState = {
         }
   
       case "REMOVE_FROM_BASKET":
+        // New code with bug fixed
+        const index = state.basket.findIndex((basketItem) => basketItem.id === action.id);
+        var newbasket = [];
+        var i;
+        for (i = 0; i < state.basket.length; i++) { 
+          if (i !== index) {
+            newbasket.push(state.basket[i]);
+          }
+        }
+  
+        return {
+          ...state,
+          basket: newbasket
+        }
+        /* Old code with deletion bug 
         const index = state.basket.findIndex(
           (basketItem) => basketItem.id === action.id
         );
@@ -41,6 +56,7 @@ export const initialState = {
           ...state,
           basket: newBasket
         }
+        */
       
       case "SET_USER":
         return {
