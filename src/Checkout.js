@@ -6,12 +6,16 @@ import CheckoutProduct from "./CheckoutProduct";
 
 function Checkout() {
     const [{ basket, user }, dispatch] = useStateValue();
+    var ind = user?.email.indexOf("@");
+    function capitalize(string) {
+      return string.charAt(0).toUpperCase() + string.slice(1);
+    }
     return (
         <div className="checkout">
             <div className="checkout__left">
                 <img className="checkout__ad" src="https://sootter.com/upload/6643intelligence-horizontal-banner-220x265_158855015884b5b0e31141839dc8aeae7ad454d0ff.png" alt="" />
                 <div>
-                  <h3 >Hello, {user?.email}</h3>
+                  <h3 > Hello, {capitalize(user?.email.slice(0,ind))}</h3>
                   <h2 className="checkout__title">Your Shopping Cart</h2>
                   {basket.map(item => (
                     <CheckoutProduct
