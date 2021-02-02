@@ -30,6 +30,9 @@
 .payment__details {
   flex: 0.8;
 }
+.payment__address {
+  margin-left: 40px;
+}
 
 .payment__details > form {
   max-width: 400px;
@@ -49,4 +52,14 @@
   margin-top: 10px;
   border-color: #a88734 #9c7e31 #846a29;
   color: #111;
+}
+
+.coming__soon {
+  margin-left: 20px;
+  text-align: center;
+  background: #f0c14b;
+  width: 150px;
+  height: 15%;
+  border-color: #a88734 #9c7e31 #846a29;
+  border-radius: 10px;
 }

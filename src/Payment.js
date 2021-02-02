@@ -19,7 +19,7 @@ function Payment() {
                     </div>
                     <div className='payment__address'>
                         <p>{user?.email}</p>
-                        <p>123 Faridabad</p>
+                        <p>Faridabad 121003</p>
                         <p>Haryana, India</p>
                     </div>
 
@@ -49,6 +49,7 @@ function Payment() {
                     </div>
                     <div className="payment__details">
                         {/* Stripe magic will go */}
+                        <h3 className="coming__soon">Coming soon</h3>
                     </div>
                                 
                 </div>
