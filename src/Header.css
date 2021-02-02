@@ -27,14 +27,17 @@
 }
 
 .header__searchInput {
-  height: 14px;
+  margin-right: -25px;
+  height: 22px;
   padding: 10px;
   border: none;
   width: 100%;
+  border-radius: 7px;
 }
 .header__searchIcon {
-  padding: 5px;
-  height: 22px;
+  border-radius: 7px;
+  padding: 9px;
+  height: 15px;
   background-color: #cd9042;
 }
 
@@ -49,6 +52,7 @@
 }
 
 .header__optionBasket {
+  padding-left: 7px;
   display: flex;
   align-items: center;
   color: white;
@@ -60,6 +64,8 @@
   margin-right: 10px;
 }
 .header__nav {
+  padding-left: 7px;
+  padding-right: 7px;
   display: flex;
   justify-content: space-evenly;
 }
