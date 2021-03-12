@@ -6,10 +6,11 @@ import CheckoutProduct from "./CheckoutProduct";
 
 function Checkout() {
     const [{ basket, user }, dispatch] = useStateValue();
-    var ind = user?.email.indexOf("@");
-    function capitalize(string) {
-      return string.charAt(0).toUpperCase() + string.slice(1);
-    }
+    // const [basket] = useStateValue();
+    // var ind = user?.email.indexOf("@");
+    // function capitalize(string) {
+    //   return string.charAt(0).toUpperCase() + string.slice(1);
+    // }
     return (
         <div className="checkout">
             <div className="checkout__left">

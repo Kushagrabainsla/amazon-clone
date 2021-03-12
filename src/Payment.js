@@ -2,10 +2,11 @@ import React from 'react'
 import "./Payment.css";
 import { useStateValue } from "./StateProvider";
 import CheckoutProduct from "./CheckoutProduct";
-import { Link, useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Payment() {
-    const [{ basket, user }, dispatch] = useStateValue();
+    // const [{ basket, user }, dispatch] = useStateValue();
+    const [{ basket, user }] = useStateValue();
 
     return (
         <div className="payment">
