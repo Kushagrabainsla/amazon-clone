@@ -24,7 +24,7 @@ function Header() {
             <Link to="/" >
               <img className="header__logo1" src="assets/header_prime_logo.png" alt="" />
             </Link>
-            <img className="header__logo2" src="assets/header_delivery.png" alt="" />
+            {/* <img className="header__logo2" src="assets/header_delivery.png" alt="" /> */}
 
             <div className="header__search">
                 <input className="header__searchInput" type="text" />
